@@ -14,6 +14,6 @@ When successfully deployed, select <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 If the status for the oneagent pods are anything other than **running**, you can troubleshoot by pasting the following command in the terminal replacing 'ONEAGENT_POD' with one of the OneAgent pod names from above.
 
-`kubectl -n dynatrace logs -f ONEAGNENT POD`{{copy}}
+`kubectl -n dynatrace logs -f ONEAGNENT_POD`{{copy}}
 
 select <kbd>Ctrl</kbd>+<kbd>C</kbd> to exit
