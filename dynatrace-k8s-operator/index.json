@@ -35,11 +35,13 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": [
+      {"file": "dynatrace.txt", "target": "/tmp/", "chmod": "rw"},
+      {"file": "kubernetes.yaml", "target": "/tmp/", "chmod": "rw"},
+      {"file": "cr.yaml", "target": "/tmp/", "chmod": "rw"}
+    ]
   },
-  "files": [
-    "dynatrace.txt","kubernetes.yaml","cr.yaml"
-  ],
   "environment": {
     "uilayout": "editor-terminal"
   },
