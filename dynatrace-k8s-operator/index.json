@@ -37,9 +37,9 @@
       "text": "finish.md"
     },
     "assets": [
-      {"file": "dynatrace.txt", "target": "/usr/local/share/", "chmod": "rw"},
-      {"file": "kubernetes.yaml", "target": "/usr/local/share/", "chmod": "rw"},
-      {"file": "cr.yaml", "target": "/usr/local/share/", "chmod": "rw"}
+      {"file": "dynatrace.txt", "target": "/root/", "chmod": "rw"},
+      {"file": "kubernetes.yaml", "target": "/root/", "chmod": "rw"},
+      {"file": "cr.yaml", "target": "/root/", "chmod": "rw"}
     ]
   },
   "environment": {
