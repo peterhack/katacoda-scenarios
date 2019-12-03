@@ -1,0 +1,3 @@
+DYNATRACE_URL="<your dynatrace tenant url>"
+API_TOKEN="<dynatrace API Token>"
+PAAS_TOKEN="<dynatrace PaaS Token>"

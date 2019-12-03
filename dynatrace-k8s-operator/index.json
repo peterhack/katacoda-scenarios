@@ -38,7 +38,7 @@
     }
   },
   "files": [
-    "config.txt"
+    "dynatrace.txt"
   ],
   "environment": {
     "uilayout": "editor-terminal"

@@ -1,6 +1,6 @@
 #!/bin/bash
-cd /root/
-cat <<EOF > ./config.sh 
+cd /root
+cat <<EOF>~/dynatrace.sh  
 #!/bin/bash
 DYNATRACE_URL="<your dynatrace tenant url>"
 API_TOKEN="<dynatrace API Token>"

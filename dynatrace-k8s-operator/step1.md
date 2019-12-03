@@ -1,13 +1,3 @@
-In this step, you will create and use the Dynatrace API and PAAS tokens to be used to connect the Dynatrace OneAgent Operator with your tenant.
+please update the ENVIRONMENTID from the tenant url in the editor:
 
-Within your tenant go to:
-
-API:
-https://ENVIRONMENTID.live.dynatrace.com/settings#settings/integration/apikeys
-
-create API token and place in editor
-
-PAAS:
-https://ENVIRONMENTID.live.dynatrace.com/settings#settings/integration/paastokens
-
-create PAAS token and place in editor
+<pre>DYNATRACE_URL="https://ENVIRONMENTID.live.dynatrace.com"<pre>

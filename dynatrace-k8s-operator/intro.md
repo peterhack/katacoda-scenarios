@@ -4,8 +4,4 @@ A pre-requisites for this scenario is to have a Dynatrace Tenant.  Please regist
 
 - [**Dynatrace Trial Tenant**](https://dynatrace.com/trial) 
 
-Once you have a tenant, please update the ENVIRONMENTID from the tenant url in the editor:
-
-# TASK
-<pre>DYNATRACE_URL="https://ENVIRONMENTID.live.dynatrace.com"<pre>
-
+Once you have a tenant, please select continue...
