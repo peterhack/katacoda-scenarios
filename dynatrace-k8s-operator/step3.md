@@ -1,0 +1,1 @@
+`some-command`{{execute editor}}
