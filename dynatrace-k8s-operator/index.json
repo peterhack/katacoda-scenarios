@@ -41,7 +41,7 @@
     "showdashboard": true,
     "dashboards": [{"name": "URL", "href": "https://www.google.co.uk"},
         {"name": "Port 80", "port": 80},
-        {"name": "Placeholder", "href": "https://www.phacklabs.com/e/55659c01-bd4a-4766-8312-fa2f3825b89f/",
+        {"name": "Placeholder", "href": "https://www.phacklabs.com/e/55659c01-bd4a-4766-8312-fa2f3825b89f/"},
     "uilayout": "terminal-iframe"
   },
   "backend": {
