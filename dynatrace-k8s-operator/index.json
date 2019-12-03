@@ -1,6 +1,6 @@
 {
   "title": "Installing Dynatrace OneAgent Operator in k8s",
-  "description": "installation of Dyntrace OneAgent Operator in k8s",
+  "description": "Installation of Dyntrace OneAgent Operator in k8s",
   "difficulty": "Beginner",
   "time": "10 mins",
   "details": {
@@ -38,6 +38,8 @@
     }
   },
   "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}],
     "uilayout": "terminal"
   },
   "backend": {
