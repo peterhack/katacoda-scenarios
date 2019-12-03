@@ -38,7 +38,7 @@
     }
   },
   "files": [
-    "dynatrace.txt"
+    "dynatrace.txt","kubernetes.yaml","cr.yaml"
   ],
   "environment": {
     "uilayout": "editor-terminal"
