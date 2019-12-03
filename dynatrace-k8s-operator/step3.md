@@ -1,1 +1,1 @@
-`some-command`{{execute editor}}
+`some-command`{{editor}}
