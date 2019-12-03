@@ -37,6 +37,9 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "config.txt"
+  ],
   "environment": {
     "uilayout": "editor-terminal"
   },
