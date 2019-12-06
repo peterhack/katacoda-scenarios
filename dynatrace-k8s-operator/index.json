@@ -1,6 +1,6 @@
 {
   "title": "Installing Dynatrace OneAgent Operator in k8s",
-  "description": "Installation of Dyntrace OneAgent Operator in k8s",
+  "description": "v1.1",
   "difficulty": "Beginner",
   "time": "10 mins",
   "details": {
@@ -38,13 +38,19 @@
     },
     "assets": {
       "host01": [
-        {"file": "dynatrace.txt", "target": "/usr/local/bin/", "chmod": "rw"},
-        {"file": "kubernetes.yaml", "target": "/usr/local/bin/", "chmod": "rw"},
-        {"file": "cr.yaml", "target": "/usr/local/bin/", "chmod": "rw"}
+        {"file": "dynatrace.txt", "target": "/dynatrace/", "chmod": "rw"},
+        {"file": "kubernetes.yaml", "target": "/dynatrace/", "chmod": "rw"},
+        {"file": "cr.yaml", "target": "/dynatrace/", "chmod": "rw"}
       ]
     }
   },
   "environment": {
+    "dashboards": [
+      {"name": "Dynatrace", "href": "https://sso.dynatrace.com/"}
+    ],
+    "terminals": [
+      {"name": "Terminal 1", "target": "host01"}
+    ],
     "uilayout": "editor-terminal"
   },
   "backend": {
