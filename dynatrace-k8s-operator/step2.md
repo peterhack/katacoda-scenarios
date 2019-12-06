@@ -6,8 +6,8 @@ Within your tenant go to:
 
 - [API Token](https://www.dynatrace.com/support/help/reference/dynatrace-concepts/what-is-an-access-token/): `https://ENVIRONMENTID.live.dynatrace.com/settings#settings/integration/apikeys`{{copy}}
 
-create API token and place in editor for later reference
+create API token and update API_TOKEN in 'dynatrace/dynatrace.txt' within editor panel for later reference
 
 - [PAAS Token](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/kubernetes/installation-and-operation/full-stack/deploy-oneagent-on-kubernetes/#expand-1367how-to-get-your-paas-token): `https://ENVIRONMENTID.live.dynatrace.com/settings#settings/integration/paastokens`{{copy}}
 
-create PAAS token and place in editor for later reference
+create PAAS token and update PAAS_TOKEN in 'dynatrace/dynatrace.txt' within editor panel for later reference

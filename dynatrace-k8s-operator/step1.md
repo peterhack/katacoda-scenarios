@@ -8,5 +8,6 @@ A pre-requisites for this scenario is to have a Dynatrace Tenant.  Please regist
 
 Once you have a tenant, please open and login to your tenant in another browser tab.
 
+Please update 'ENVIRONMENTID' in 'dynatrace/dynatrace.txt' within the editor panel using the first 8 characters of your Dynatrace tenant (eg. abc12345 of https://abc12345.live.dynatrace.com)
 
 

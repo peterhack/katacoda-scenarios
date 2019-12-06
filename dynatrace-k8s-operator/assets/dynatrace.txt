@@ -1,3 +1,3 @@
-DYNATRACE_URL="<your dynatrace tenant url>"
+ENVIRONMENTID="<your dynatrace environment id (eg. abc12345)>"
 API_TOKEN="<dynatrace API Token>"
 PAAS_TOKEN="<dynatrace PaaS Token>"
