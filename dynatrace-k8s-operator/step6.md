@@ -6,7 +6,7 @@ Edit the cr.yaml code snippet in the editor screen.  The rollout of the Dynatrac
 
 You can adjust for additional parameters if needed in your own environment, however for now we will just apply the defaults.
 
-`kubectl create -f cr.yaml`{{execute}}
+`kubectl create -f dynatrace/cr.yaml`{{execute}}
 
 To validate everything is working correctly, you can watch the pods deploy:
 
