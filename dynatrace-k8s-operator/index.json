@@ -38,12 +38,15 @@
     },
     "assets": {
       "host01": [
-        {"file": "dynatrace.txt", "target": "/dynatrace/", "chmod": "rw"},
-        {"file": "kubernetes.yaml", "target": "/dynatrace/", "chmod": "rw"},
-        {"file": "cr.yaml", "target": "/dynatrace/", "chmod": "rw"}
+        {"file": "dynatrace.txt", "target": "/root/dynatrace/", "chmod": "rw"},
+        {"file": "kubernetes.yaml", "target": "/root/dynatrace/", "chmod": "rw"},
+        {"file": "cr.yaml", "target": "/root/dynatrace/", "chmod": "rw"}
       ]
     }
   },
+  "files": [
+    "/root/dynatrace/dynatrace.txt","/root/dynatrace/kubernetes.yaml","/root/dynatrace/cr.yaml"
+  ],
   "environment": {
     "dashboards": [
       {"name": "Dynatrace", "href": "https://sso.dynatrace.com/"}
