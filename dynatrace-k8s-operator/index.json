@@ -1,6 +1,6 @@
 {
   "title": "Installing Dynatrace OneAgent Operator in k8s",
-  "description": "v1.4",
+  "description": "v1.5",
   "difficulty": "Beginner",
   "time": "10 mins",
   "details": {
