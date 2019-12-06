@@ -1,6 +1,6 @@
 {
   "title": "Installing Dynatrace OneAgent Operator in k8s",
-  "description": "v1.2",
+  "description": "v1.3",
   "difficulty": "Beginner",
   "time": "10 mins",
   "details": {
@@ -44,9 +44,6 @@
       ]
     }
   },
-  "files": [
-    "/root/dynatrace/dynatrace.txt","/root/dynatrace/kubernetes.yaml","/root/dynatrace/cr.yaml"
-  ],
   "environment": {
     "dashboards": [
       {"name": "Dynatrace", "href": "https://sso.dynatrace.com/"}
