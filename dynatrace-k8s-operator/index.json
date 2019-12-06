@@ -36,11 +36,13 @@
     "finish": {
       "text": "finish.md"
     },
-    "assets": [
-      {"file": "dynatrace.txt", "target": "/usr/local/bin/", "chmod": "rw"},
-      {"file": "kubernetes.yaml", "target": "/usr/local/bin/", "chmod": "rw"},
-      {"file": "cr.yaml", "target": "/usr/local/bin/", "chmod": "rw"}
-    ]
+    "assets": {
+      "host01": [
+        {"file": "dynatrace.txt", "target": "/usr/local/bin/", "chmod": "rw"},
+        {"file": "kubernetes.yaml", "target": "/usr/local/bin/", "chmod": "rw"},
+        {"file": "cr.yaml", "target": "/usr/local/bin/", "chmod": "rw"}
+      ]
+    }
   },
   "environment": {
     "uilayout": "editor-terminal"
